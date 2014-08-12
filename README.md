@@ -26,7 +26,7 @@ To use nice-diff you can
 
 Now you can pass reference to JSON or XML files
 
-	obj = Nice::Diff.new("JSON", <file_reference_to_expected_json_file>, <file_reference_to_actual_json_file>).print
+	obj = Nice::Diff.new("JSON", <file_reference_to_expected_json_file>, <file_reference_to_actual_json_file>)
 	obj.print
 
 	obj = Nice::Diff.new("XML", <file_reference_to_expected_xml_file>, <file_reference_to_actual_xml_file>)
